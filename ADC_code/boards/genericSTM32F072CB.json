@@ -1,0 +1,34 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m0",
+        "extra_flags": "-DSTM32F0 -DSTM32F072xB -D PIO_FRAMEWORK_ARDUINO_ENABLE_CDC",
+        "f_cpu": "48000000L",
+        "mcu": "stm32f072cbt6",
+        "product_line": "STM32F072xx",
+        "variant": "STM32F0xx/F072C8(T-U)_F072CB(T-U-Y)"
+    },
+    "frameworks": [
+        "arduino",
+        "mbed",
+        "stm32cube",
+        "cmsis"
+    ],
+    "name": "Generic STM32F072CB",
+    "debug": {
+    "jlink_device": "STM32F072CB",
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F072xx.svd"
+  }, 
+    "upload": {
+        "maximum_ram_size": 16000,
+        "maximum_size": 128000,
+        "protocol": "dfu",
+        "protocols": [
+            "dfu",
+            "stlink"
+        ]
+    },
+    "vendor": "Generic",
+    "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f072cb.html"
+}
