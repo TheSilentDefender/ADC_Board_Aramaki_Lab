@@ -50,7 +50,7 @@ void ADS795X::enterProgramSequenceAuto2(void)
     _spiPort->endTransaction();
 }
 
-boolean ADS795X::initCommunication(SPIClass &spiPort, uint32_t clock, uint8_t bitOrder, uint8_t dataMode)
+boolean ADS795X::initCommunication(SPIClass &spiPort, uint32_t clock, BitOrder bitOrder, uint8_t dataMode)
 {
     boolean statusCode = false;
 
@@ -102,7 +102,7 @@ void ADS795X::setFunctionalMode(controlRegisterMode regValue)
 
     _spiPort->endTransaction();
 
-    operationMode = (uint8_t)(regValue.cmd >> 12);;
+operationMode = static_cast<channelSequencingMode>((regValue.cmd >> 12) & 0x0F);
 }
 
 uint16_t ADS795X::readData(uint8_t channel)
