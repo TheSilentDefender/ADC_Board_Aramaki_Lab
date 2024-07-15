@@ -59,7 +59,7 @@ void setup() {
   digitalWrite(CS_PIN, HIGH);
 
   digitalWrite(CS_PIN, LOW);
-  ADS7951_2.transfer16(0x3C00); // Set the device to Auto mode 2
+  ADS7951_2.transfer16(0x3C40); // Set the device to Auto mode 2
   digitalWrite(CS_PIN, HIGH);
 
   digitalWrite(CS_PIN, LOW);
@@ -86,7 +86,7 @@ void loop() {
   uint16_t channel1 = (rawData1 & 0xF000) >> 12;
   uint16_t adcValue1 = rawData1 & 0x0FFF;
 
-  float voltage1 = (adcValue1 / 4095.0) * 2.5;
+  float voltage1 = (adcValue1 / 4095.0) * 5;
 
   // Print the received data
   Serial.print("Channel1: ");
@@ -107,7 +107,7 @@ void loop() {
   uint16_t adcValue2 = rawData & 0x0FFF;
 
 
-  float voltage2 = (adcValue2 / 4095.0) * 2.5;
+  float voltage2 = (adcValue2 / 4095.0) * 5;
 
   // Print the received data
   Serial.print("Channel2: ");
