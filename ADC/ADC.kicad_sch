@@ -2848,7 +2848,6 @@
 					(alternate "ADC_IN0" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "" input line)
 					(alternate "RTC_TAMP2" bidirectional line)
 					(alternate "SYS_WKUP1" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -2877,7 +2876,6 @@
 					(alternate "" input line)
 					(alternate "ADC_IN1" bidirectional line)
 					(alternate "COMP1_INP" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM15_CH1N" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G1_IO2" bidirectional line)
@@ -2932,7 +2930,6 @@
 					(alternate "" input line)
 					(alternate "ADC_IN3" bidirectional line)
 					(alternate "COMP2_INP" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "TSC_G1_IO4" bidirectional line)
@@ -2961,7 +2958,6 @@
 					(alternate "COMP2_INM" bidirectional line)
 					(alternate "DAC_OUT1" bidirectional line)
 					(alternate "I2S1_WS" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TSC_G2_IO1" bidirectional line)
@@ -3068,7 +3064,6 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN8" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM1_CH2N" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G3_IO2" bidirectional line)
@@ -3093,7 +3088,6 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN9" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -3581,7 +3575,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_CK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G5_IO1" bidirectional line)
@@ -3624,7 +3617,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_MCK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "TIM17_BKIN" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
@@ -3650,7 +3642,6 @@
 					(alternate "" input line)
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2S1_SD" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_MOSI" bidirectional line)
 					(alternate "SYS_WKUP6" bidirectional line)
 					(alternate "TIM16_BKIN" bidirectional line)
@@ -16174,28 +16165,6 @@
 			)
 		)
 	)
-	(global_label "CS_SPI"
-		(shape input)
-		(at 25.4 308.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c40690bc-4bff-468e-bf1b-59d2d7e52fb4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.9166 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCK_SPI1"
 		(shape input)
 		(at 63.5 41.91 0)
@@ -16853,71 +16822,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 25.4 308.61 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00f3e028-1333-43e6-841a-38003700f597")
-		(property "Reference" "TP4"
-			(at 19.304 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 14.732 309.372 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 25.4 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 25.4 308.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c2dacc3-eceb-4c40-bebe-daf864bb3b3c")
-		)
-		(instances
-			(project "ADC"
-				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
-					(reference "TP4")
-					(unit 1)
-				)
 			)
 		)
 	)
