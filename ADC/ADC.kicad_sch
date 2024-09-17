@@ -2848,6 +2848,7 @@
 					(alternate "ADC_IN0" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
+					(alternate "" input line)
 					(alternate "RTC_TAMP2" bidirectional line)
 					(alternate "SYS_WKUP1" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -2876,6 +2877,7 @@
 					(alternate "" input line)
 					(alternate "ADC_IN1" bidirectional line)
 					(alternate "COMP1_INP" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM15_CH1N" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G1_IO2" bidirectional line)
@@ -2930,6 +2932,7 @@
 					(alternate "" input line)
 					(alternate "ADC_IN3" bidirectional line)
 					(alternate "COMP2_INP" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "TSC_G1_IO4" bidirectional line)
@@ -2958,6 +2961,7 @@
 					(alternate "COMP2_INM" bidirectional line)
 					(alternate "DAC_OUT1" bidirectional line)
 					(alternate "I2S1_WS" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TSC_G2_IO1" bidirectional line)
@@ -3064,6 +3068,7 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN8" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM1_CH2N" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G3_IO2" bidirectional line)
@@ -3088,6 +3093,7 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN9" bidirectional line)
+					(alternate "" input line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -3575,6 +3581,7 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_CK" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G5_IO1" bidirectional line)
@@ -3617,6 +3624,7 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_MCK" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "TIM17_BKIN" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
@@ -3642,6 +3650,7 @@
 					(alternate "" input line)
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2S1_SD" bidirectional line)
+					(alternate "" input line)
 					(alternate "SPI1_MOSI" bidirectional line)
 					(alternate "SYS_WKUP6" bidirectional line)
 					(alternate "TIM16_BKIN" bidirectional line)
@@ -19886,7 +19895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 229.87 147.3199 0)
 			(effects
 				(font
@@ -21322,7 +21331,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 259.08 41.275 0)
 			(effects
 				(font
@@ -23207,7 +23216,7 @@
 				)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 281.94 41.275 0)
 			(effects
 				(font
@@ -23871,7 +23880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 145.161 26.543 0)
 			(effects
 				(font
@@ -24103,7 +24112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 76.2 135.8899 0)
 			(effects
 				(font
@@ -24528,7 +24537,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1µF"
+		(property "Value" "1uF"
 			(at 331.47 140.9699 0)
 			(effects
 				(font
@@ -27894,7 +27903,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "10uF"
 			(at 251.46 135.8899 0)
 			(effects
 				(font

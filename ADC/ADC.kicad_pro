@@ -568,9 +568,15 @@
           "show": true
         },
         {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
           "group_by": false,
-          "label": "Datasheet",
-          "name": "Datasheet",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": true
         },
         {
@@ -581,14 +587,8 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
+          "label": "Datasheet",
+          "name": "Datasheet",
           "show": true
         },
         {
@@ -673,8 +673,8 @@
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "Footprint"
+      "sort_asc": true,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
