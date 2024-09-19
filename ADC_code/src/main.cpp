@@ -1,4 +1,5 @@
 #include <SPI.h>
+#include <CRC.h>
 
 // Define SPI pins
 #define CS_PIN PA_4
@@ -18,7 +19,7 @@ SPIClass ADS7953_2;
 
 #define CHANNELS_TO_PRINT 32
 
-int sensorData[32] = {0};
+uint16_t sensorData[32] = {0};
 
 void setupADS7953(SPIClass ADS7953);
 void readADS7953(SPIClass ADS7953, int adc);
@@ -57,9 +58,16 @@ void setup()
 
 void loop()
 {
-  readADS7953(ADS7953_1, 0);
-  readADS7953(ADS7953_2, 1);
-  printData();
+ if(Serial.available() > 0)
+  {
+    char command = Serial.read();
+    if(command == 0x11)
+    {
+      readADS7953(ADS7953_1, 0);
+      readADS7953(ADS7953_2, 1);
+      printData();
+    }
+  }
   delay(1000);
 }
 
@@ -96,19 +104,32 @@ void readADS7953(SPIClass ADS7953, int adc)
 
 void printData()
 {
+  // Define header, footer, and CRC variables
+  uint8_t header = 0xFF;
+  uint8_t footer = 0xFF;
+  uint8_t crc = 0;
+
+  // Start with the header
+  Serial.write(header);
+
+  // Send the channel data (4 bits for channel + 12 bits for data) in binary format
   for (int i = 0; i < CHANNELS_TO_PRINT; i++)
   {
-    char buffer[4];
-    Serial.print("A");
-    Serial.print(i);
-    Serial.print("_");
-    sprintf(buffer, "%04d", sensorData[i]);
-    Serial.print(buffer);
-    if (i < CHANNELS_TO_PRINT - 1)
-    {
-      Serial.print("_");
-    } else {
-      Serial.println();
-    }
+    uint16_t channel = (i & 0x0F) << 12;        // Channel number in the upper 4 bits
+    uint16_t data = sensorData[i] & 0x0FFF;     // ADC data in the lower 12 bits
+    uint16_t packet = channel | data;           // Combine the channel and data
+
+    // Send the 16-bit packet as two bytes (MSB first)
+    Serial.write((packet >> 8) & 0xFF);         // Send high byte
+    Serial.write(packet & 0xFF);                // Send low byte
+
+    // Update CRC with the 16-bit data (split into two 8-bit values)
+    crc = CRC8(reinterpret_cast<uint8_t*>(&packet), 2, crc);
   }
+
+  // Send the CRC
+  Serial.write(crc);
+
+  // Send the footer
+  Serial.write(footer);
 }
