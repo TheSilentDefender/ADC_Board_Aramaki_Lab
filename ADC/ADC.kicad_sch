@@ -2848,7 +2848,6 @@
 					(alternate "ADC_IN0" bidirectional line)
 					(alternate "COMP1_INM" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "" input line)
 					(alternate "RTC_TAMP2" bidirectional line)
 					(alternate "SYS_WKUP1" bidirectional line)
 					(alternate "TIM2_CH1" bidirectional line)
@@ -2877,7 +2876,6 @@
 					(alternate "" input line)
 					(alternate "ADC_IN1" bidirectional line)
 					(alternate "COMP1_INP" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM15_CH1N" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G1_IO2" bidirectional line)
@@ -2932,7 +2930,6 @@
 					(alternate "" input line)
 					(alternate "ADC_IN3" bidirectional line)
 					(alternate "COMP2_INP" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM15_CH2" bidirectional line)
 					(alternate "TIM2_CH4" bidirectional line)
 					(alternate "TSC_G1_IO4" bidirectional line)
@@ -2961,7 +2958,6 @@
 					(alternate "COMP2_INM" bidirectional line)
 					(alternate "DAC_OUT1" bidirectional line)
 					(alternate "I2S1_WS" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_NSS" bidirectional line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TSC_G2_IO1" bidirectional line)
@@ -3068,7 +3064,6 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN8" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM1_CH2N" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G3_IO2" bidirectional line)
@@ -3093,7 +3088,6 @@
 					)
 					(alternate "" input line)
 					(alternate "ADC_IN9" bidirectional line)
-					(alternate "" input line)
 					(alternate "TIM14_CH1" bidirectional line)
 					(alternate "TIM1_CH3N" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -3581,7 +3575,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_CK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_SCK" bidirectional line)
 					(alternate "TIM2_CH2" bidirectional line)
 					(alternate "TSC_G5_IO1" bidirectional line)
@@ -3624,7 +3617,6 @@
 					)
 					(alternate "" input line)
 					(alternate "I2S1_MCK" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "TIM17_BKIN" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
@@ -3650,7 +3642,6 @@
 					(alternate "" input line)
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2S1_SD" bidirectional line)
-					(alternate "" input line)
 					(alternate "SPI1_MOSI" bidirectional line)
 					(alternate "SYS_WKUP6" bidirectional line)
 					(alternate "TIM16_BKIN" bidirectional line)
@@ -6238,193 +6229,6 @@
 				)
 			)
 		)
-		(symbol "SamacSys_Parts:SKQGABE010"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SKQGABE010"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SKQGAKE010"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGABE010.html"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tact switch,SMT,SPST,with stem,1.57N o/f Stem Tactile Switch, SPST-NO 50 mA 1.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "688-SKQGAB"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKQGABE010?qs=N5Jky1br14NGdH0AMYxewQ%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ALPS Electric"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SKQGABE010"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SKQGABE010_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Sensor_Humidity:SHT4x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6868,6 +6672,151 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8386,12 +8335,6 @@
 		(uuid "8f045554-b9ca-496e-b4b8-d41d430b9123")
 	)
 	(junction
-		(at 90.17 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91431c89-58a8-414e-b9f9-2dc9ec2d93b9")
-	)
-	(junction
 		(at 85.09 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8662,12 +8605,6 @@
 		(uuid "d925e046-27fe-41ea-9846-9eb20c85fdb1")
 	)
 	(junction
-		(at 90.17 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da119823-cc52-4de2-b31d-8ed9b9e1b1f9")
-	)
-	(junction
 		(at 243.84 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8704,12 +8641,6 @@
 		(uuid "e405677c-1705-43b2-bf9b-59ed323a10e1")
 	)
 	(junction
-		(at 110.49 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4f8589c-642d-44c4-9628-03b250f05d83")
-	)
-	(junction
 		(at 58.42 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8726,12 +8657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda0327a-6dd4-4731-8dd9-b7de6f1a1fd1")
-	)
-	(junction
-		(at 110.49 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edbdfb71-dc6d-4ad5-9fe2-34ccdc269f1e")
 	)
 	(junction
 		(at 139.7 214.63)
@@ -9259,16 +9184,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 57.15) (xy 90.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "105cc2e4-4717-4b0e-8aab-608de2ab62a6")
-	)
-	(wire
-		(pts
 			(xy 48.26 209.55) (xy 46.99 209.55)
 		)
 		(stroke
@@ -9366,6 +9281,16 @@
 			(type default)
 		)
 		(uuid "19866c1b-1b37-4674-9762-61cd049ee3b7")
+	)
+	(wire
+		(pts
+			(xy 96.52 53.34) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a33ae0d-af09-436c-913d-1b066a55afdc")
 	)
 	(wire
 		(pts
@@ -9486,16 +9411,6 @@
 			(type default)
 		)
 		(uuid "1ea261a6-dfef-4c91-be01-e6d476c93720")
-	)
-	(wire
-		(pts
-			(xy 90.17 55.88) (xy 90.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1edf42de-960f-4dbd-8f45-3285957427a7")
 	)
 	(wire
 		(pts
@@ -9769,16 +9684,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 82.55) (xy 90.17 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c87bca8-6e09-4322-9a70-893d0dc94485")
-	)
-	(wire
-		(pts
 			(xy 322.58 166.37) (xy 322.58 173.99)
 		)
 		(stroke
@@ -9976,16 +9881,6 @@
 			(type default)
 		)
 		(uuid "3527c651-8aee-48b2-8d6b-cbfb28f4b091")
-	)
-	(wire
-		(pts
-			(xy 90.17 58.42) (xy 90.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3561d70b-5db2-4824-a7c4-3fe8411be4cf")
 	)
 	(wire
 		(pts
@@ -10439,16 +10334,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 81.28) (xy 90.17 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ad15aeb-cd5f-4b1b-970e-35f9651973c7")
-	)
-	(wire
-		(pts
 			(xy 114.3 57.15) (xy 114.3 62.23)
 		)
 		(stroke
@@ -10636,6 +10521,16 @@
 			(type default)
 		)
 		(uuid "536e6836-6d1c-4108-b645-6d97e6be9551")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 96.52 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5395af5b-3579-48b5-9d96-86ebb5c324e4")
 	)
 	(wire
 		(pts
@@ -11146,16 +11041,6 @@
 			(type default)
 		)
 		(uuid "6b81731c-a323-43dc-ad2c-a274f5c5f8a0")
-	)
-	(wire
-		(pts
-			(xy 110.49 81.28) (xy 110.49 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b99a6c3-6660-42cb-80b4-0ef115ff4647")
 	)
 	(wire
 		(pts
@@ -12049,16 +11934,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 53.975) (xy 87.63 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99f34b55-42c1-45f2-aa7b-f12f21d6db12")
-	)
-	(wire
-		(pts
 			(xy 189.23 207.01) (xy 215.9 207.01)
 		)
 		(stroke
@@ -12286,16 +12161,6 @@
 			(type default)
 		)
 		(uuid "a4e04b6a-6217-4832-b9b3-a692d7202823")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 110.49 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a55f5fbc-d27e-4597-96b4-910ff81c92fe")
 	)
 	(wire
 		(pts
@@ -12626,16 +12491,6 @@
 			(type default)
 		)
 		(uuid "b1ad1071-e236-43d4-81b3-05771acfe3b5")
-	)
-	(wire
-		(pts
-			(xy 110.49 82.55) (xy 110.49 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f09ed8-9cf9-43ea-b4b2-a15382f24cec")
 	)
 	(wire
 		(pts
@@ -13019,7 +12874,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 87.63 82.55)
+			(xy 97.79 78.74) (xy 97.79 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13136,16 +12991,6 @@
 			(type default)
 		)
 		(uuid "ca6d3863-b948-4192-a02a-c9ba4a9bbd02")
-	)
-	(wire
-		(pts
-			(xy 110.49 57.15) (xy 110.49 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbc6c3e8-498c-4568-9bed-a66d612c5554")
 	)
 	(wire
 		(pts
@@ -14029,7 +13874,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 82.55) (xy 90.17 82.55)
+			(xy 97.79 82.55) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
@@ -18305,7 +18150,7 @@
 				)
 			)
 		)
-		(property "Value" "XC6206PxxxMR-Regulator_Linear"
+		(property "Value" "XC6206P332PR-G"
 			(at 271.78 22.86 0)
 			(effects
 				(font
@@ -19275,133 +19120,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:SKQGABE010")
-		(at 110.49 81.28 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e4b5996-b232-475f-a163-6950212aa790")
-		(property "Reference" "S2"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKQGABE010"
-			(at 100.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SKQGAKE010"
-			(at 93.98 176.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGABE010.html"
-			(at 93.98 276.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tact switch,SMT,SPST,with stem,1.57N o/f Stem Tactile Switch, SPST-NO 50 mA 1.5mm"
-			(at 110.49 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 93.98 476.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-SKQGAB"
-			(at 93.98 576.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKQGABE010?qs=N5Jky1br14NGdH0AMYxewQ%3D%3D"
-			(at 93.98 676.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 93.98 776.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SKQGABE010"
-			(at 93.98 876.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f1e0f07-5660-468f-8166-ab1ecbd39a57")
-		)
-		(pin "4"
-			(uuid "0c50b0d8-b237-4415-9ad0-1d767512e8ec")
-		)
-		(pin "1"
-			(uuid "92317d52-315c-493d-8ef5-2b9adb56965f")
-		)
-		(pin "3"
-			(uuid "0f5765f4-b9c1-46f2-8de7-e1a05bec11d5")
-		)
-		(instances
-			(project "ADC"
-				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 74.93 177.8 0)
 		(unit 1)
@@ -19812,7 +19530,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 87.63 53.975 0)
+		(at 96.52 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19821,7 +19539,7 @@
 		(fields_autoplaced yes)
 		(uuid "36f3d3ba-90a8-446b-b30e-76b8a08ab787")
 		(property "Reference" "#PWR011"
-			(at 87.63 57.785 0)
+			(at 96.52 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19830,7 +19548,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 87.63 48.895 0)
+			(at 96.52 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19838,7 +19556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 53.975 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19847,7 +19565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 53.975 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19856,7 +19574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 53.975 0)
+			(at 96.52 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25150,7 +24868,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 87.63 78.74 0)
+		(at 97.79 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25160,7 +24878,7 @@
 		(fields_autoplaced yes)
 		(uuid "92cdd68a-8bd3-417e-b06d-85f8caf17a65")
 		(property "Reference" "#PWR056"
-			(at 87.63 82.55 0)
+			(at 97.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25169,7 +24887,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 87.63 73.66 0)
+			(at 97.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25177,7 +24895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25186,7 +24904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25195,7 +24913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 87.63 78.74 0)
+			(at 97.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27233,6 +26951,74 @@
 			(project "ADC"
 				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
 					(reference "C52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b070ca94-0ab8-41ce-8954-26c8f30f0f82")
+		(property "Reference" "SW3"
+			(at 105.41 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd01cec2-e21c-485a-b3db-9dc3773b8541")
+		)
+		(pin "2"
+			(uuid "5cd32b1e-44f8-4766-a612-b4a324d55b76")
+		)
+		(instances
+			(project "ADC"
+				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -29384,132 +29170,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:SKQGABE010")
-		(at 90.17 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4333c23-714a-4a03-bede-6a6635c24b9f")
-		(property "Reference" "S1"
-			(at 100.33 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SKQGABE010"
-			(at 100.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SKQGAKE010"
-			(at 106.68 150.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGABE010.html"
-			(at 106.68 250.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tact switch,SMT,SPST,with stem,1.57N o/f Stem Tactile Switch, SPST-NO 50 mA 1.5mm"
-			(at 90.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 106.68 450.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-SKQGAB"
-			(at 106.68 550.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKQGABE010?qs=N5Jky1br14NGdH0AMYxewQ%3D%3D"
-			(at 106.68 650.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 106.68 750.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SKQGABE010"
-			(at 106.68 850.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86ee5c54-7648-467d-84b7-e90376757c2b")
-		)
-		(pin "4"
-			(uuid "eed6198c-db25-4295-97ff-09a5e920be83")
-		)
-		(pin "1"
-			(uuid "2b8a1e53-b7a9-4a33-89f9-124a42c25ba9")
-		)
-		(pin "3"
-			(uuid "5741a562-5cad-4f8e-9c44-58c68b2a3b8c")
-		)
-		(instances
-			(project ""
-				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
-					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 187.96 30.48 270)
 		(unit 1)
@@ -30972,6 +30632,74 @@
 			(project "ADC"
 				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 105.41 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec803414-986c-4155-961f-5364b10717e6")
+		(property "Reference" "SW2"
+			(at 105.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 105.41 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f4c0d8a-daff-49e7-a906-b955e2ddb3b9")
+		)
+		(pin "2"
+			(uuid "aab16fd9-5e1f-4e3f-92f5-0cea3791f8aa")
+		)
+		(instances
+			(project ""
+				(path "/0d8b7ddd-f154-4e4b-9e58-7849a15eb9e3"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
