@@ -33,6 +33,8 @@ void setup()
 
   pinMode(CS_PIN, OUTPUT);
   digitalWrite(CS_PIN, HIGH);
+  pinMode(RANGE_PIN, OUTPUT);
+  digitalWrite(RANGE_PIN, HIGH);
 
   ADS7953_1.begin();
   ADS7953_1.setMOSI(MOSI_PIN_ADS7953_1);
