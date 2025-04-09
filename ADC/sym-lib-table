@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ADS7953SDBT")(type "KiCad")(uri "${KIPRJMOD}/components/ADS7953SDBT.kicad_sym")(options "")(descr ""))
+  (lib (name "OPA192ID")(type "KiCad")(uri "${KIPRJMOD}/components/OPA192ID.kicad_sym")(options "")(descr ""))
+  (lib (name "REF5025ID")(type "KiCad")(uri "${KIPRJMOD}/components/REF5025ID.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP3338AKCZ-5-REEL")(type "KiCad")(uri "${KIPRJMOD}/components/ADP3338AKCZ-5-REEL.kicad_sym")(options "")(descr ""))
+)
