@@ -36,6 +36,8 @@ void setupSoftADS7953(SoftSPI ADS7953, int cs);
 void readADS7953(SPIClass ADS7953, int adc, int cs);
 void readSoftADS7953(SoftSPI ADS7953, int adc, int cs);
 void printADC();
+void JumpToBootloader();
+void reset();
 
 void setup()
 {
@@ -85,6 +87,13 @@ void loop()
             readADS7953(ADS7953_2, 2, CS_PIN_ADS7953_2);
             readSoftADS7953(ADS7953_3, 1, CS_PIN_ADS7953_3);
             printADC();
+        }
+        else if (command == 'd')
+        {
+            JumpToBootloader();
+        } else if (command == 'r')
+        {
+            reset();
         }
     }
 }
@@ -184,4 +193,59 @@ void printADC()
             }
         }
     }
+    // for (int i = 0; i < CHANNELS_TO_PRINT; i++)
+    // {
+    //     char buffer[4];
+    //     Serial.print("A");
+    //     Serial.print(i);
+    //     Serial.print("_");
+    //     sprintf(buffer, "%04d", sensorData[order[i]]);
+    //     Serial.print(buffer);
+    //     if (i < CHANNELS_TO_PRINT - 1)
+    //     {
+    //         Serial.print("_");
+    //     }
+    //     else
+    //     {
+    //         Serial.println();
+    //     }
+    // }
+}
+
+void reset()
+{
+    NVIC_SystemReset();
+}
+
+#define BOOT_ADDR 0x1FFFC800
+
+struct boot_vectable_
+{
+    uint32_t Initial_SP;
+    void (*Reset_Handler)(void);
+};
+
+#define BOOTVTAB ((struct boot_vectable_ *)BOOT_ADDR)
+
+void JumpToBootloader(void)
+{
+    __disable_irq();
+
+    USB->CNTR = 0x0003;
+
+    SysTick->CTRL = 0;
+
+    HAL_RCC_DeInit();
+
+    for (int i = 0; i < sizeof(NVIC->ICER) / sizeof(NVIC->ICER[0]); i++)
+    {
+        NVIC->ICER[i] = 0xFFFFFFFF;
+        NVIC->ICPR[i] = 0xFFFFFFFF;
+    }
+
+    __enable_irq();
+
+    __set_MSP(BOOTVTAB->Initial_SP);
+
+    BOOTVTAB->Reset_Handler();
 }
