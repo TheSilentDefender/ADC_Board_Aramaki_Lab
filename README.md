@@ -9,6 +9,6 @@
 - Open the platform.io side panel and click build. This should automatically build with the settings in the configuation file.
 
 ## How to flash
-- Connect to the board in DFU mode (press the button on the top while you plug in the board)
+- Connect to the board in DFU mode or enter in "d" through serial (press the button on the top while you plug in the board)
 - Assuming you followed the instuctions for building, you can click on build and upload which will automatic flash the board and restart it.
-- If not you can download the bin file and flash it using dfu-util or any other DFU upgrade tool. For example, `dfu-util -U firmware.bin`.
+- If not you can download the bin file and flash it using dfu-util or any other DFU upgrade tool. For example, `sudo dfu-util -a 0 -i 0 -s 0x08000000:leave -D firmware.bin`.
