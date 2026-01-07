@@ -172,11 +172,11 @@ void readSoftADS7953(SoftSPI ADS7953, int adc, int cs)
 
 void printADC()
 {
-    for (int row = 0; row < 8; row++) // Columns 1-6
+    for (int row = 0; row < 8; row++) // Rows A-H
     {
-        for (int col = 0; col < 6; col++) // Rows A-H
+        for (int col = 0; col < 6; col++) // Columns 1-6
         {
-            int index = col * 6 + row; // Corrected the indexing logic
+            int index = col * 8 + row; // Corrected the indexing logic
             char buffer[4];
             Serial.print((char)('A' + row)); // Print row letter
             Serial.print(col + 1);          // Print column number
